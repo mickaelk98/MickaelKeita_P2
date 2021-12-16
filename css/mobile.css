@@ -1,0 +1,354 @@
+@media screen and (max-width: 768px) {
+  /**************************** Header *******************************/
+  body {
+    font-size: 23px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .header-logo img {
+    width: 100px;
+  }
+
+  header nav {
+    width: 100%;
+    height: 80px;
+  }
+
+  header li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #f2f2f2;
+  }
+
+  header li:hover {
+    border-top: none;
+    border-bottom: 4px solid #0065fc;
+  }
+
+  /**************************** main (Recherche - filtre) **************/
+  main ul {
+    font-size: 18px;
+  }
+
+  .top {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .top h1 {
+    margin-top: 20px;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .top h4 {
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  input[type="submit"] {
+    display: none;
+  }
+
+  .top button {
+    transform: translateX(-25%);
+    visibility: visible;
+  }
+
+  .filters-title {
+    display: flex;
+    justify-content: left;
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .filters-title p {
+    padding: 0;
+  }
+
+  .all-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .filters {
+    margin-bottom: 10px;
+  }
+
+  .all-filters p {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .info {
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 0;
+  }
+
+  .info .logo-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    height: 20px;
+    width: 25px;
+    border: 3px solid #f2f2f2;
+    border-radius: 100%;
+    color: #0065fc;
+    font-size: 10px;
+  }
+
+  .info p {
+    font-size: 16px;
+  }
+
+  /**************************** main  ************************************/
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .middle h2 {
+    font-size: 25px;
+  }
+
+  .middle h3 {
+    font-size: 20px;
+  }
+
+  .middle p {
+    font-size: 17px;
+  }
+
+  .popular,
+  .hosting {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .hosting {
+    background: #fff;
+  }
+
+  .popular-img {
+    width: 170px;
+  }
+
+  .popular p {
+    margin-bottom: 40px;
+  }
+
+  .bedroom-1,
+  .bedroom-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bedroom-1 article,
+  .bedroom-2 article {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .hosting-img {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  /************* Activite à Marseille ********************/
+  .bot {
+    width: 100%;
+  }
+
+  .bot h2 {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .bot h3 {
+    font-size: 20px;
+  }
+
+  .bot .activities,
+  .two-activities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .single-activitie,
+  .litle-card {
+    width: 90%;
+  }
+
+  .activities-img,
+  .activities-litle-img-1,
+  .activities-litle-img-2,
+  .activities-litle-img-3,
+  .activities-litle-img-4 {
+    height: 150px;
+  }
+
+  /**************************** Footer ***********************************/
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  footer div {
+    margin-bottom: 10px;
+    white-space: nowrap;
+  }
+
+  footer h3 {
+    font-size: 23px;
+  }
+
+  footer .first-container,
+  footer .second-container {
+    margin-right: 10px;
+  }
+
+  footer ul {
+    font-size: 18px;
+  }
+}
+
+/******************************************************************************/
+/**                             Plus petit ecran                             **/
+/******************************************************************************/
+
+@media screen and (max-width: 320px) {
+  /**************************** Header ******************************************/
+  header nav a {
+    font-size: 18px;
+  }
+
+  /**************************** main *************************************/
+  .top h1 {
+    font-size: 20px;
+  }
+
+  .top h4 {
+    font-size: 14px;
+  }
+
+  form {
+    width: 100%;
+    position: relative;
+  }
+
+  form .map-logo {
+    height: 50px;
+    width: 15%;
+  }
+
+  input[type="search"] {
+    height: 50px;
+    width: 70%;
+  }
+
+  .top button {
+    height: 50px;
+    width: 20%;
+    transform: translateX(0%);
+    position: absolute;
+    right: 0;
+  }
+
+  .filters-title {
+    font-size: 20px;
+  }
+
+  .filters-logo {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+  }
+
+  .filters-block p {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  /******************************** Main middle *********************************/
+  .middle h2 {
+    font-size: 18px;
+  }
+
+  .middle h3 {
+    font-size: 16px;
+  }
+
+  .middle p {
+    font-size: 14px;
+  }
+
+  .popular-img {
+    width: 100px;
+  }
+
+  .popular p {
+    margin-bottom: 20px;
+  }
+
+  .hosting-img {
+    height: 120px;
+  }
+
+  .bot h2 {
+    font-size: 18px;
+  }
+
+  .bot h3 {
+    font-size: 16px;
+  }
+
+  .bot p {
+    font-size: 14px;
+  }
+
+  .activities-img,
+  .activities-litle-img-1,
+  .activities-litle-img-2,
+  .activities-litle-img-3,
+  .activities-litle-img-4 {
+    height: 120px;
+  }
+
+  /**************************** Footer ***********************************/
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer ul {
+    font-size: 14px;
+  }
+}

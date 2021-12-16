@@ -1,0 +1,52 @@
+@media screen and (max-width: 992px) {
+  /**************************** Header ***********************************/
+  header nav {
+    width: 40%;
+  }
+
+  /**************************** main *************************************/
+  .filters-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filters-title {
+    margin: 0 auto 20px;
+  }
+
+  .all-filters {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .popular,
+  .hosting {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .popular-img {
+    width: 250px;
+  }
+
+  .popular p {
+    margin-bottom: 60px;
+  }
+
+  /**************************** Footer ***********************************/
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer .first-block,
+  footer .second-block {
+    margin-right: 100px;
+  }
+}
